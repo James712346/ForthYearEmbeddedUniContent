@@ -1,0 +1,59 @@
+# ---- C++ ----
+*.o
+*.obj
+*.so
+*.exe
+*.out
+*.gch
+*.pch
+*.log
+*.d
+
+# ---- PlatformIO ----
+.pio/
+.pioenvs/
+.pio/libdeps/
+.pio/build/
+.pio/.cache/
+.pio/.pio/
+.pio/.cmake/
+.pio/.sconsign.dblite
+.pio/.vscode/
+platformio.ini.bak
+platformio-override.ini
+
+# Library dependencies
+lib_deps/
+
+# ---- VSCode ----
+.vscode/
+*.code-workspace
+
+# ---- General ----
+*.DS_Store
+Thumbs.db
+
+# ---- Unit Test output ----
+test/output/
+
+# ---- PIO CompiledDB for Nvim LSP ----
+compile_commands.json
+
+# ---- LaTeX intermediate files ----
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.lof
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.bcf
+*.run.xml

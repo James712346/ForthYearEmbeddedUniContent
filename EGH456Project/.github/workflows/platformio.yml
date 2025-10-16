@@ -1,0 +1,43 @@
+name: PlatformIO Build
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      TILIB: ${{ github.workspace }}/TILibrary
+
+    steps:
+      - name: Checkout Main Project
+        uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        name: setting up platformio cache
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.platformio/.cache
+          key: ${{ runner.os }}-pio
+      - uses: actions/cache@v4
+        name: setting up TILIB cache
+        with:
+          path: ${TILIB}
+          key: ${{ runner.os }}-tilib
+      - name: Checkout TILibrary (Private Repo)
+        uses: actions/checkout@v4
+        with:
+          repository: James712346/TILibrary
+          token: ${{ secrets.GH_TOKEN }}
+          path: TILibrary
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PlatformIO Core
+        run: pip install --upgrade platformio
+      - name: Build PlatformIO Project
+        run: pio run
+
+

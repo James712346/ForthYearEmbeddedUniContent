@@ -1,0 +1,13 @@
+PROJECT_NAME           = "EGH456 Assignment 2"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = src
+INPUT                 += lib
+RECURSIVE              = YES
+FILE_PATTERNS          = *.cpp *.h *.c *.hpp
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_MULTI_TARGETS      = YES
+

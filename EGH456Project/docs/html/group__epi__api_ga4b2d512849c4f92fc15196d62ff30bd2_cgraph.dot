@@ -1,0 +1,13 @@
+digraph "EPIIntRegister"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="EPIIntRegister",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="IntEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__interrupt__api.html#ga49fc9c3d1a0f8c42a20249f8c5d360ce",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="IntRegister",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__interrupt__api.html#ga0a32aafea7f4904d2a64ee18b45f96c9",tooltip=" "];
+}

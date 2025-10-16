@@ -1,0 +1,14 @@
+var searchData=
+[
+  ['main_0',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;main.c'],['../startup__gcc_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;main.c']]],
+  ['malloc_1',['malloc',['../main_8c.html#a874875760078bf29934385d6d3a1d5ff',1,'main.c']]],
+  ['mpudisable_2',['MPUDisable',['../group__mpu__api.html#gae98f222992a05f9a0feae96f933dd69d',1,'MPUDisable(void):&#160;mpu.c'],['../group__mpu__api.html#gae98f222992a05f9a0feae96f933dd69d',1,'MPUDisable(void):&#160;mpu.c']]],
+  ['mpuenable_3',['MPUEnable',['../group__mpu__api.html#ga16c52787707bbfe428269741396cd79d',1,'MPUEnable(uint32_t ui32MPUConfig):&#160;mpu.c'],['../group__mpu__api.html#ga16c52787707bbfe428269741396cd79d',1,'MPUEnable(uint32_t ui32MPUConfig):&#160;mpu.c']]],
+  ['mpuintregister_4',['MPUIntRegister',['../group__mpu__api.html#ga5f391e2bed9919c3e98ee744d76a5a03',1,'MPUIntRegister(void(*pfnHandler)(void)):&#160;mpu.c'],['../group__mpu__api.html#ga5f391e2bed9919c3e98ee744d76a5a03',1,'MPUIntRegister(void(*pfnHandler)(void)):&#160;mpu.c']]],
+  ['mpuintunregister_5',['MPUIntUnregister',['../group__mpu__api.html#ga8bd36f9796c8a112476a11f381cd5c90',1,'MPUIntUnregister(void):&#160;mpu.c'],['../group__mpu__api.html#ga8bd36f9796c8a112476a11f381cd5c90',1,'MPUIntUnregister(void):&#160;mpu.c']]],
+  ['mpuregioncountget_6',['MPURegionCountGet',['../group__mpu__api.html#ga682b0d081b78b73e14fa4d540291fb7e',1,'MPURegionCountGet(void):&#160;mpu.c'],['../group__mpu__api.html#ga682b0d081b78b73e14fa4d540291fb7e',1,'MPURegionCountGet(void):&#160;mpu.c']]],
+  ['mpuregiondisable_7',['MPURegionDisable',['../group__mpu__api.html#ga36b1830b3d7ee909ee8a21a267df5164',1,'MPURegionDisable(uint32_t ui32Region):&#160;mpu.c'],['../group__mpu__api.html#ga36b1830b3d7ee909ee8a21a267df5164',1,'MPURegionDisable(uint32_t ui32Region):&#160;mpu.c']]],
+  ['mpuregionenable_8',['MPURegionEnable',['../group__mpu__api.html#ga17918fcd1ac15cb5456d7ae3ad388aaa',1,'MPURegionEnable(uint32_t ui32Region):&#160;mpu.c'],['../group__mpu__api.html#ga17918fcd1ac15cb5456d7ae3ad388aaa',1,'MPURegionEnable(uint32_t ui32Region):&#160;mpu.c']]],
+  ['mpuregionget_9',['MPURegionGet',['../group__mpu__api.html#ga197e3c9b41e6f05cf91ee618678dea89',1,'MPURegionGet(uint32_t ui32Region, uint32_t *pui32Addr, uint32_t *pui32Flags):&#160;mpu.c'],['../group__mpu__api.html#ga197e3c9b41e6f05cf91ee618678dea89',1,'MPURegionGet(uint32_t ui32Region, uint32_t *pui32Addr, uint32_t *pui32Flags):&#160;mpu.c']]],
+  ['mpuregionset_10',['MPURegionSet',['../group__mpu__api.html#ga6134864a66eb0a110320fc98a49c8c57',1,'MPURegionSet(uint32_t ui32Region, uint32_t ui32Addr, uint32_t ui32Flags):&#160;mpu.c'],['../group__mpu__api.html#ga6134864a66eb0a110320fc98a49c8c57',1,'MPURegionSet(uint32_t ui32Region, uint32_t ui32Addr, uint32_t ui32Flags):&#160;mpu.c']]]
+];

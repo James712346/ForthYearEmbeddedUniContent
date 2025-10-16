@@ -1,0 +1,11 @@
+digraph "I2CMasterEnable"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="I2CMasterEnable",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="I2CMasterInitExpClk",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__i2c__api.html#ga73250bf554c0d1ebb7e55c45a258f38e",tooltip=" "];
+}

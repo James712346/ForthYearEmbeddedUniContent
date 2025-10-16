@@ -1,0 +1,48 @@
+var group__widget__api =
+[
+    [ "tWidgetMessageQueue", "structtWidgetMessageQueue.html", [
+      [ "psWidget", "structtWidgetMessageQueue.html#afeca4d071d5249bba4914fb958668875", null ],
+      [ "ui32Flags", "structtWidgetMessageQueue.html#a742941e4a2fbf7010cc264afdb4f0dc7", null ],
+      [ "ui32Message", "structtWidgetMessageQueue.html#a25ce8664fc8c22113d68ae5b27554945", null ],
+      [ "ui32Param1", "structtWidgetMessageQueue.html#a5ca5e15c391ce86d953d1eb2fba79998", null ],
+      [ "ui32Param2", "structtWidgetMessageQueue.html#ad1085b75369c4b98d3caa5bfb499f685", null ]
+    ] ],
+    [ "__Widget", "struct____Widget.html", [
+      [ "i32Size", "struct____Widget.html#ae0f80d869b166b2a54490d6b80e0d198", null ],
+      [ "pfnMsgProc", "struct____Widget.html#a094040b04fb487914a44ccfd9f4005da", null ],
+      [ "psChild", "struct____Widget.html#a45ee01d1edd00861d90a246abdcd09ca", null ],
+      [ "psDisplay", "struct____Widget.html#a1751620e78d71cf63380389aa26a8e8d", null ],
+      [ "psNext", "struct____Widget.html#a488759100d4a2d48b6784eebaae090c3", null ],
+      [ "psParent", "struct____Widget.html#a518ab7a7b20598245ca5d778f05e9f0c", null ],
+      [ "sPosition", "struct____Widget.html#a0ccaa47c90d4749fd2b533063aea7853", null ]
+    ] ],
+    [ "MQ_FLAG_POST_ORDER", "group__widget__api.html#ga5c98f3ddd571448d5be1a10d49ba80f0", null ],
+    [ "MQ_FLAG_STOP_ON_SUCCESS", "group__widget__api.html#gade91922b62e8f2f8b893976687dc9067", null ],
+    [ "QUEUE_SIZE", "group__widget__api.html#ga142810068f1b99cd93d3fc9f0e160e02", null ],
+    [ "WIDGET_MSG_KEY_DOWN", "group__widget__api.html#gaad6abe7ae9b373476ff6d23e5afa81d2", null ],
+    [ "WIDGET_MSG_KEY_LEFT", "group__widget__api.html#ga6287ce7678ba8043801840ab644a8d02", null ],
+    [ "WIDGET_MSG_KEY_RIGHT", "group__widget__api.html#ga0b4b500c3a0cd51f65406b85fa9aa39d", null ],
+    [ "WIDGET_MSG_KEY_SELECT", "group__widget__api.html#gaa1f4bbdaa59b17a6beaf7d4e7e5b54c1", null ],
+    [ "WIDGET_MSG_KEY_UP", "group__widget__api.html#ga175a96b8c310bb8320aab122f1e550d6", null ],
+    [ "WIDGET_MSG_PAINT", "group__widget__api.html#ga53cae6d44eabe8633fd4e23aed37c26b", null ],
+    [ "WIDGET_MSG_PTR_DOWN", "group__widget__api.html#gac968d231e8f2d21a926d0ea33d736ed4", null ],
+    [ "WIDGET_MSG_PTR_MOVE", "group__widget__api.html#gaff8fa7edd6af54a0a52e5656e22b0592", null ],
+    [ "WIDGET_MSG_PTR_UP", "group__widget__api.html#ga807f97e9eeca19f9244ab6bdf1e95c25", null ],
+    [ "WIDGET_ROOT", "group__widget__api.html#ga50f3e825d4306ec46cf3f1dda8002ea7", null ],
+    [ "WidgetPaint", "group__widget__api.html#ga94d1a686aff7c73f33ec759d6f146947", null ],
+    [ "tWidget", "group__widget__api.html#ga13059d1b190930f79fa1ffea6d4b85de", null ],
+    [ "__attribute__", "group__widget__api.html#gad460a143bc0c4dff25b9fd5e93ccf338", null ],
+    [ "WidgetAdd", "group__widget__api.html#gac47ceb0872f7eff6066a628abb64f6a8", null ],
+    [ "WidgetDefaultMsgProc", "group__widget__api.html#ga44ff50cee487b1eb5438d577248e6609", null ],
+    [ "WidgetMessageQueueAdd", "group__widget__api.html#ga2228f100e90bcd3792a08a4522cae82f", null ],
+    [ "WidgetMessageQueueProcess", "group__widget__api.html#ga5a621f222e75a42366f7b1eeb2174a5d", null ],
+    [ "WidgetMessageSendPostOrder", "group__widget__api.html#gad0dcfbe1a8f2bb687a779e83f2ee3ca0", null ],
+    [ "WidgetMessageSendPreOrder", "group__widget__api.html#ga9ddbe3ceb8abb2dfde93cb09b50b895d", null ],
+    [ "WidgetMutexGet", "group__widget__api.html#ga0676dd7399702b4f422d449cc0d13735", null ],
+    [ "WidgetMutexInit", "group__widget__api.html#gadeff279943df2fe72e45e671abb10fd8", null ],
+    [ "WidgetMutexPut", "group__widget__api.html#ga68f09caedd837470422ad3b103a611a0", null ],
+    [ "WidgetPointerMessage", "group__widget__api.html#ga7c67b8f0a78e0c6ca94a2b733af2f5b0", null ],
+    [ "WidgetRemove", "group__widget__api.html#gabbf5e23a839705ca1440c2b994a2783b", null ],
+    [ "g_sRoot", "group__widget__api.html#ga6446a459cdfa71db0af5b754764d72e3", null ],
+    [ "g_sRoot", "group__widget__api.html#ga6446a459cdfa71db0af5b754764d72e3", null ]
+];

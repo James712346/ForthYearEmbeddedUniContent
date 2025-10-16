@@ -1,0 +1,33 @@
+digraph "TouchScreenInit"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="TouchScreenInit",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="ADCIntEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__adc__api.html#ga2ce4cfdfe4e47c998872215490121973",tooltip=" "];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="ADCSequenceConfigure",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__adc__api.html#gad8ad8b940627697b2efddbf01f771d76",tooltip=" "];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="ADCSequenceEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__adc__api.html#ga3d9afeb0aeb2726e1713b936229bb412",tooltip=" "];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="ADCSequenceStepConfigure",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__adc__api.html#ga1771f99a5228971b923b336d1bdbb4cd",tooltip=" "];
+  Node1 -> Node6 [id="edge5_Node000001_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="GPIOPinTypeGPIOOutput",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$gpio_8h.html#ac962b2917f42452a32c1fea0d050e52e",tooltip=" "];
+  Node1 -> Node7 [id="edge6_Node000001_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="GPIOPinWrite",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$gpio_8h.html#aa0605843a6c1e2e1724dc32183760ab6",tooltip=" "];
+  Node1 -> Node8 [id="edge7_Node000001_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="IntEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__interrupt__api.html#ga49fc9c3d1a0f8c42a20249f8c5d360ce",tooltip=" "];
+  Node1 -> Node9 [id="edge8_Node000001_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="SysCtlPeripheralEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__sysctl__api.html#ga2fbae61db465e1d861a62785d28e3ad6",tooltip=" "];
+  Node1 -> Node10 [id="edge9_Node000001_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TimerConfigure",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#ga906bd1ce13ef11046b0d4b2722f3a9a8",tooltip=" "];
+  Node1 -> Node11 [id="edge10_Node000001_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TimerControlTrigger",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#gaf4ae82873e7e2940b136302d4f6404bb",tooltip=" "];
+  Node1 -> Node12 [id="edge11_Node000001_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TimerEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#ga13a66ae0ebdd8467176d85e057ed212c",tooltip=" "];
+  Node1 -> Node13 [id="edge12_Node000001_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="TimerLoadSet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#ga20a168e18a8d3502809ad53c031e4613",tooltip=" "];
+}

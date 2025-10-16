@@ -1,0 +1,28 @@
+var gui_8c =
+[
+    [ "CreateGUISensorTask", "gui_8c.html#a1ecbba48d1a4cd81b919180de24283de", null ],
+    [ "CreateGUITask", "gui_8c.html#ae4a47c23309c2130fe19568576a30e6f", null ],
+    [ "CreateLEDTask", "gui_8c.html#a79c4a29319e1fd9f1b1513cc1b46fef3", null ],
+    [ "GUI_SetScreen", "gui_8c.html#a1d504a75a2f7ceafd79d4f4c6b21dbf1", null ],
+    [ "guiSensorTask", "gui_8c.html#ad27d0c66bb548fc273cfc6a59c298b12", null ],
+    [ "guiTask", "gui_8c.html#a6819e5ebb843503757f113b4d38a963b", null ],
+    [ "LEDTask", "gui_8c.html#af6d5fcca417964389239771abcf66940", null ],
+    [ "setupGUIHardware", "gui_8c.html#ab10d5e7d96297855a1976f6f11baa909", null ],
+    [ "setupLEDHardware", "gui_8c.html#ae3079aec5dd078c803a5a47fa566d283", null ],
+    [ "TouchTestCallback", "gui_8c.html#a05ac4ec5ad48ddb349d1d58a0d360ca8", null ],
+    [ "xTimer2AHandler", "gui_8c.html#a498ec2f6040954cead66104ccfd8e89b", null ],
+    [ "g_currentPlot", "group__gui.html#ga5eeb95f8193572d511ea9833d4bcd249", null ],
+    [ "g_dateString", "group__gui.html#ga7468a11ccb6d23b9ed25d66bd24f30c1", null ],
+    [ "g_i32CoolingTempThreshold", "group__gui.html#ga23128c8de48eb957031ab5c117e83f92", null ],
+    [ "g_i32HeatingTempThreshold", "group__gui.html#gaddca5c58a5eadfe8cd616a306d9335fe", null ],
+    [ "g_pActiveScreen", "gui_8c.html#a4ee320d88fa4f4b030780bec0ed5714c", null ],
+    [ "g_sHomeClockBanner", "group__gui.html#gaa4005abd2980549dfe44629813b91c44", null ],
+    [ "g_sMotorClockBanner", "group__gui.html#gaeb21c4526dda350613c0bf545c16da9d", null ],
+    [ "g_sPlotClockBanner", "group__gui.html#ga330bec031886beb08430b5e240947adb", null ],
+    [ "g_sSettingsClockBanner", "group__gui.html#ga647b748d1d40f652a1cf0585504ab76e", null ],
+    [ "g_sStatusClock", "group__gui.html#gad3103fa03b4374d5d158b415323b4dbc", null ],
+    [ "g_sStatusClockBanner", "group__gui.html#gaedc8222fff08d59bada8b70861a7300e", null ],
+    [ "g_timeString", "group__gui.html#ga0b743a8046f068562be6088964f5aba0", null ],
+    [ "g_ui32SysClock", "gui_8c.html#a85ea8ca26e195a17da88e70e7e4ddf82", null ],
+    [ "isNight", "gui_8c.html#a5eabc07cd46ffc5a2a82ff7e4a3ebefd", null ]
+];

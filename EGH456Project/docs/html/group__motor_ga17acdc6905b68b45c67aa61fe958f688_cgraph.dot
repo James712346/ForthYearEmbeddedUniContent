@@ -1,0 +1,37 @@
+digraph "CreateMotorTask"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node1 [id="Node000001",label="CreateMotorTask",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Create Motor Control Tasks."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="enableMotor",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$motorlib_8h.html#ad4c5f85964505556f9cbcf76028a8905",tooltip="Enables Motor Drive by setting enable pin to low."];
+  Node1 -> Node3 [id="edge2_Node000001_Node000003",color="steelblue1",style="solid",tooltip=" "];
+  Node3 [id="Node000003",label="initMotorLib",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$motorlib_8h.html#a74c4151f97d669bd0767f3a90d38fb32",tooltip="Initialise GPIO and PWM module to ensure correct setup of High/Low side pins."];
+  Node1 -> Node4 [id="edge3_Node000001_Node000004",color="steelblue1",style="solid",tooltip=" "];
+  Node4 [id="Node000004",label="setDuty",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$motorlib_8h.html#a2787833597cc85b70a8dea4657ccfa12",tooltip="This function sets the duty cycle of the high side PWM lines."];
+  Node1 -> Node5 [id="edge4_Node000001_Node000005",color="steelblue1",style="solid",tooltip=" "];
+  Node5 [id="Node000005",label="setupTimers",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__motor.html#gaf30c012c92bdd66716137298e1f7e198",tooltip="Configure Timer1 for RPM ramping control."];
+  Node5 -> Node6 [id="edge5_Node000005_Node000006",color="steelblue1",style="solid",tooltip=" "];
+  Node6 [id="Node000006",label="IntEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__interrupt__api.html#ga49fc9c3d1a0f8c42a20249f8c5d360ce",tooltip=" "];
+  Node5 -> Node7 [id="edge6_Node000005_Node000007",color="steelblue1",style="solid",tooltip=" "];
+  Node7 [id="Node000007",label="SysCtlPeripheralEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__sysctl__api.html#ga2fbae61db465e1d861a62785d28e3ad6",tooltip=" "];
+  Node5 -> Node8 [id="edge7_Node000005_Node000008",color="steelblue1",style="solid",tooltip=" "];
+  Node8 [id="Node000008",label="SysCtlPeripheralReady",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__sysctl__api.html#ga7ddf1f06376894c31e5596f562c299ac",tooltip=" "];
+  Node5 -> Node9 [id="edge8_Node000005_Node000009",color="steelblue1",style="solid",tooltip=" "];
+  Node9 [id="Node000009",label="TimerConfigure",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#ga906bd1ce13ef11046b0d4b2722f3a9a8",tooltip=" "];
+  Node5 -> Node10 [id="edge9_Node000005_Node000010",color="steelblue1",style="solid",tooltip=" "];
+  Node10 [id="Node000010",label="TimerEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#ga13a66ae0ebdd8467176d85e057ed212c",tooltip=" "];
+  Node5 -> Node11 [id="edge10_Node000005_Node000011",color="steelblue1",style="solid",tooltip=" "];
+  Node11 [id="Node000011",label="TimerIntClear",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#ga57384a0128e97c9059b9a6b5152486c6",tooltip=" "];
+  Node5 -> Node12 [id="edge11_Node000005_Node000012",color="steelblue1",style="solid",tooltip=" "];
+  Node12 [id="Node000012",label="TimerIntEnable",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#gaf5153c3e27648ca57b95adc691d0afdf",tooltip=" "];
+  Node5 -> Node13 [id="edge12_Node000005_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node13 [id="Node000013",label="TimerLoadSet",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__timer__api.html#ga20a168e18a8d3502809ad53c031e4613",tooltip=" "];
+  Node1 -> Node14 [id="edge13_Node000001_Node000014",color="steelblue1",style="solid",tooltip=" "];
+  Node14 [id="Node000014",label="UARTprintf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$group__uartstdio__api.html#ga9df4748a317174f7cf3c20ffc072abb0",tooltip=" "];
+  Node14 -> Node15 [id="edge14_Node000014_Node000015",color="steelblue1",style="solid",tooltip=" "];
+  Node15 [id="Node000015",label="UARTvprintf",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$uartstdio_8h.html#ac24c8a911d71d799981ea44353f472de",tooltip=" "];
+}

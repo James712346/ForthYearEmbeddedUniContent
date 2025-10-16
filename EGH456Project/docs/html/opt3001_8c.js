@@ -1,0 +1,26 @@
+var opt3001_8c =
+[
+    [ "CONFIG_DISABLE", "opt3001_8c.html#ace714fb5ac8ff3c12fd880ca25be8ff7", null ],
+    [ "CONFIG_ENABLE", "opt3001_8c.html#a07e390a2fa8a016344cfed1848e3be01", null ],
+    [ "CONFIG_RESET", "opt3001_8c.html#ae690996d4aaf04b403aa5cc20eb1afcd", null ],
+    [ "CONFIG_TASK_D", "opt3001_8c.html#a038ff4311c6fe7ea57cddb68401bfb21", null ],
+    [ "CONFIG_TEST", "opt3001_8c.html#a8bc3e1daa5e4ea3c87cfa481e45524f0", null ],
+    [ "DATA_LENGTH", "opt3001_8c.html#af0113b8a0d65aab384607436aa155838", null ],
+    [ "DATA_RDY_BIT", "opt3001_8c.html#aef2b8a21f1489f067af0bc0077a16ac0", null ],
+    [ "DEVICE_ID", "opt3001_8c.html#a0b85963cace75e76ae726bcffb04eb70", null ],
+    [ "MANUFACTURER_ID", "opt3001_8c.html#ad6d06519161544439a58bb8f59fc3094", null ],
+    [ "OPT3001_I2C_ADDRESS", "opt3001_8c.html#a4851ceec3a8db65ee9f1285cd76d73f4", null ],
+    [ "REG_CONFIGURATION", "opt3001_8c.html#adb0cb3978c6029a2196a1848355ca75d", null ],
+    [ "REG_DEVICE_ID", "opt3001_8c.html#a7536bef148067419de8358bcd473349a", null ],
+    [ "REG_HIGH_LIMIT", "opt3001_8c.html#afa511de3f50ae377a0a526963d4d6cd8", null ],
+    [ "REG_LOW_LIMIT", "opt3001_8c.html#a743407654727aadf266a0aa93c2ea82f", null ],
+    [ "REG_MANUFACTURER_ID", "opt3001_8c.html#a766a66854d49b9223c3050127baff043", null ],
+    [ "REG_RESULT", "opt3001_8c.html#a844996abac0843bfe9b24dbb5c31be58", null ],
+    [ "REGISTER_LENGTH", "opt3001_8c.html#a91451352f052daa2da44694f78f3f2a8", null ],
+    [ "sensorOpt3001Convert", "opt3001_8c.html#a1a39999158a044998a259d6dbd5b8efb", null ],
+    [ "sensorOpt3001Enable", "opt3001_8c.html#ac69ae5d241fa977705b64928862823e0", null ],
+    [ "sensorOpt3001Init", "opt3001_8c.html#abda5e71d89c3d11303592cbf252e11ef", null ],
+    [ "sensorOpt3001Read", "opt3001_8c.html#ac7bead683f0a679b1d3bebf201d77d84", null ],
+    [ "sensorOpt3001Test", "opt3001_8c.html#a134170b954470c3b910e6ddba41e0dd2", null ],
+    [ "SensorSetThresholds", "opt3001_8c.html#a5e1228789ec4b6fe7c6953a964b3045d", null ]
+];

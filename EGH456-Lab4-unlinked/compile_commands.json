@@ -1,0 +1,296 @@
+[
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/adc.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/adc.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/adc.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/adc.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/aes.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/aes.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/aes.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/aes.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/can.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/can.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/can.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/can.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/comp.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/comp.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/comp.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/comp.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/cpu.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/cpu.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/cpu.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/cpu.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/crc.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/crc.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/crc.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/crc.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/des.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/des.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/des.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/des.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/eeprom.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/eeprom.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/eeprom.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/eeprom.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/emac.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/emac.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/emac.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/emac.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/epi.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/epi.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/epi.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/epi.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/flash.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/flash.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/flash.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/flash.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/fpu.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/fpu.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/fpu.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/fpu.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/gpio.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/gpio.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/gpio.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/gpio.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/hibernate.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/hibernate.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/hibernate.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/hibernate.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/i2c.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/i2c.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/i2c.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/i2c.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/interrupt.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/interrupt.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/interrupt.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/interrupt.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/lcd.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/lcd.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/lcd.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/lcd.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/mpu.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/mpu.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/mpu.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/mpu.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/onewire.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/onewire.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/onewire.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/onewire.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/pwm.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/pwm.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/pwm.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/pwm.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/qei.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/qei.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/qei.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/qei.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/shamd5.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/shamd5.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/shamd5.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/shamd5.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/ssi.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/ssi.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/ssi.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/ssi.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/sw_crc.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/sw_crc.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/sw_crc.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/sw_crc.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/sysctl.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/sysctl.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/sysctl.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/sysctl.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/sysexc.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/sysexc.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/sysexc.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/sysexc.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/systick.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/systick.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/systick.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/systick.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/timer.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/timer.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/timer.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/timer.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/uart.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/uart.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/uart.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/uart.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/udma.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/udma.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/udma.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/udma.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/usb.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/usb.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/usb.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/usb.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/driver_lib/watchdog.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/driver_lib/watchdog.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/driver_lib/watchdog.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/driver_lib/watchdog.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/drivers/i2cOptDriver.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/drivers/i2cOptDriver.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/drivers/i2cOptDriver.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/drivers/i2cOptDriver.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/drivers/opt3001.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/drivers/opt3001.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/drivers/opt3001.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/drivers/opt3001.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/drivers/rtos_hw_drivers.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/drivers/rtos_hw_drivers.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/drivers/rtos_hw_drivers.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/drivers/rtos_hw_drivers.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/led_task.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/led_task.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/led_task.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/led_task.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/main.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/main.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/main.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/main.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/croutine.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/croutine.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/croutine.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/croutine.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/event_groups.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/event_groups.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/event_groups.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/event_groups.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/heap_4.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/heap_4.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/heap_4.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/heap_4.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/list.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/list.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/list.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/list.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/port.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/port.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/port.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/port.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/queue.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/queue.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/queue.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/queue.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/stream_buffer.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/stream_buffer.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/stream_buffer.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/stream_buffer.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/tasks.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/tasks.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/tasks.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/tasks.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/rtos/timers.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/rtos/timers.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/rtos/timers.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/rtos/timers.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/startup_gcc.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/startup_gcc.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/startup_gcc.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/startup_gcc.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/utils/uartstdio.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/utils/uartstdio.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/utils/uartstdio.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/utils/uartstdio.o"
+    },
+    {
+        "command": "/home/jamesp/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc -o .pio/build/lptm4c1294ncpdt/src/utils/ustdlib.o -c -std=gnu11 -mthumb -Os -ffunction-sections -fdata-sections -Wall -nostdlib -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -DF_CPU=120000000L -DPLATFORMIO=60118 -DENERGIA_ARCH_TIVAC -DENERGIA_EK_TM4C1294XL -DPART_TM4C1294NCPDT -DTARGET_IS_TM4C129_RA2 -Iinclude -Isrc -I/usr/local/include/ti -I/usr/local/include/ti/third_party/FreeRTOS/include -I/usr/local/include/ti/third_party/FreeRTOS/portable/GCC/ARM_CM4F src/utils/ustdlib.c",
+        "directory": "/home/jamesp/Repos/EGH456/Lab4",
+        "file": "src/utils/ustdlib.c",
+        "output": ".pio/build/lptm4c1294ncpdt/src/utils/ustdlib.o"
+    }
+]
